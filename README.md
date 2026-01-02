@@ -1,11 +1,11 @@
 # HC Monokai P404 - Zed Theme
 
-A high contrast Monokai theme for Zed editor with a pure black background and bright, vibrant syntax highlighting.
+A high contrast Monokai theme for Zed editor with a dark charcoal background and bright, vibrant syntax highlighting.
 
 ## Features
 
 - **High contrast** design optimized for readability
-- **Pure black** background (#000000) that reduces eye strain
+- **Dark charcoal** background that reduces eye strain
 - **Bright cyan accents** (#43B9D8) for UI elements and borders
 - **Classic Monokai** syntax highlighting colors:
   - Comments: Orange (#FD971F)
@@ -31,10 +31,7 @@ A high contrast Monokai theme for Zed editor with a pure black background and br
 #### macOS / Linux
 
 ```bash
-# Create themes directory if it doesn't exist
 mkdir -p ~/.config/zed/themes
-
-# Download and install the theme
 curl -o ~/.config/zed/themes/hc-monokai-p404.json \
   https://raw.githubusercontent.com/p404/hc-monokai/main/themes/hc-monokai-p404.json
 ```
@@ -42,15 +39,12 @@ curl -o ~/.config/zed/themes/hc-monokai-p404.json \
 #### Windows (PowerShell)
 
 ```powershell
-# Create themes directory if it doesn't exist
 New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\AppData\Roaming\Zed\themes"
-
-# Download and install the theme
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/p404/hc-monokai/main/themes/hc-monokai-p404.json" `
   -OutFile "$env:USERPROFILE\AppData\Roaming\Zed\themes\hc-monokai-p404.json"
 ```
 
-After installation, open Zed Settings and select "HC Monokai P404" from the theme list.
+After installation, open Zed Settings and select "HC Monokai P404" as your theme.
 
 ## Color Palette
 
