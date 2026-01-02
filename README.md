@@ -2,6 +2,8 @@
 
 A high contrast Monokai theme for Zed editor with a dark charcoal background and bright, vibrant syntax highlighting.
 
+![HC Monokai P404 Screenshot](docs/screenshot.png)
+
 ## Features
 
 - **High contrast** design optimized for readability
